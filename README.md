@@ -64,7 +64,7 @@ You can download pretrained models here:
 If you found this paper useful, please cite our work:  
 @article{dcnn2023,  
   title = {On Training Derivative-Constrained Neural Network},  
-  author = {Author, First and Author, Second},  
+  author = {KaiChieh Lo and Daniel Huang},  
   journal = {arXiv e-prints},  
   year = {2023},  
   eprint = {arXiv:2310.01649},  
