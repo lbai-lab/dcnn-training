@@ -57,8 +57,9 @@ python eval.py --root <path_to_data> --model_path <path_to_model_dir> --epoch <s
 ```
 
 ## Pre-trained Models
-You can download pretrained models here:
-- To be done
+You can download pretrained models here: https://sfsu.box.com/s/plwet99u0d27tuegroz5ezkznlik0zjl  
+- In file name: DN:Denormalized, LR:Label rescaled, IReLU: integrated relu
+- Scripts do not support reading pretrain models for now (To be done).
 
 ## Contributing
 If you found this paper useful, please cite our work:  
