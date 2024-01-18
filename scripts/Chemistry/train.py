@@ -283,9 +283,9 @@ if __name__ == "__main__":
     
     # configuration
     parser.add_argument("-M", "--model", type=str, default="schnet", help="the model to be trained")
-    parser.add_argument("-D", "--dataset", type=str, default="MD17SingleDataset", help="the dataset to be used")
+    parser.add_argument("-D", "--dataset", type=str, default="MD17Dataset", help="the dataset to be used")
     parser.add_argument("-Y", "--style", type=str, default="random", help="specify how to split the data")
-    parser.add_argument("-P", "--split", type=int, default=50000, help="the name of dataset subset, aka the number of train samples")
+    parser.add_argument("-P", "--split", type=int, default=80, help="the name of dataset subset, aka the number of train samples")
     parser.add_argument("-m", "--molecule", default="a", type=str, help="lowercase initial of the molecule in the dataset")
     parser.add_argument("-L", "--loss_fn", type=str, default="EnergyForceLoss", help="the loss fn to be used")
     parser.add_argument("-O", "--optimizer", type=str, default="Adam", help="the optimizer to be used")

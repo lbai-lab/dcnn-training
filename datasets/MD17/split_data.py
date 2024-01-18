@@ -83,7 +83,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--style", type=str, default="random", help="specify how to split the data")
+    parser.add_argument("--style", type=str, default="random", help="specify how to sample the data")
     parser.add_argument("--train", type=int, default=80, help="number of sample in training set (in percent if <100, in real number otherwise)")
 
 

@@ -31,7 +31,7 @@ def get_model(model):
 
 def get_dataset(dataset, dataset_stat, task, root):
     if dataset == "MD17SingleDataset": return MD17SingleDataset(dataset_stat["style"], dataset_stat["molecule"], task, dataset_stat["split"], root)
-    if dataset == "MD17Dataset": return MD17Dataset(dataset_stat["style"], dataset_stat["molecule"], task, dataset_stat["split"], root)
+    if dataset == "MD17Dataset": return MD17Dataset(task, dataset_stat["split"], root)
     if dataset == "SMD17SingleDataset": return SMD17SingleDataset(dataset_stat["style"], dataset_stat["molecule"], task, dataset_stat["split"], root)
     if dataset == "OC22LmdbDataset": return OC22LmdbDataset(task, root)
     if dataset == "SOC22LmdbDataset": return SOC22LmdbDataset(task, root)
